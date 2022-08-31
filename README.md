@@ -1,5 +1,5 @@
 
-                                                  Sistema de Reparto de Productos
+                                        Sistema de Reparto de Productos
                                                         
 Una empresa que se dedica al reparto de productos a escala nacional requiere un sistema que le permita registrar su actividad y decidir algunas rutas a seguir.
 El sistema deberá estar desarrollado en JAVA usando interfaz gráfica es indispensable desarrollar una etapa de análisis y diseño que facilite la construcción de diagramas fundamentales como el diagrama de clases.
