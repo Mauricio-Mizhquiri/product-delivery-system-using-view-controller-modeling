@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.devstdio.modelos</OriginalElement>
+  <nodes>
+    <node x="1517.7777777777776" y="170.0">com.devstdio.modelos.CaracteristicaEspecial</node>
+    <node x="857.9895833333333" y="0.0">com.devstdio.modelos.Ubicacion</node>
+    <node x="1056.0" y="414.0">com.devstdio.modelos.Viaje</node>
+    <node x="1129.2395833333333" y="181.5">com.devstdio.modelos.EstadoViaje</node>
+    <node x="53.23958333333326" y="148.0">com.devstdio.modelos.Persona</node>
+    <node x="1242.0" y="370.0">com.devstdio.modelos.Vehiculo</node>
+    <node x="0.0" y="413.5">com.devstdio.modelos.Conductor</node>
+    <node x="668.9895833333333" y="0.0">com.devstdio.modelos.Enlace</node>
+    <node x="891.0" y="403.0">com.devstdio.modelos.Empresa</node>
+    <node x="416.0" y="413.5">com.devstdio.modelos.Cliente</node>
+    <node x="674.125" y="170.5">com.devstdio.modelos.Ciudad</node>
+    <node x="1672.0" y="403.0">com.devstdio.modelos.Producto</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.devstdio.modelos.Cliente" target="com.devstdio.modelos.Ciudad">
+      <point x="56.875" y="-49.0" />
+      <point x="700.375" y="350.0" />
+      <point x="774.125" y="350.0" />
+      <point x="-40.0" y="48.5" />
+    </edge>
+    <edge source="com.devstdio.modelos.Conductor" target="com.devstdio.modelos.Persona">
+      <point x="-148.5" y="-49.0" />
+      <point x="49.5" y="350.0" />
+      <point x="88.73958333333326" y="350.0" />
+      <point x="-106.5" y="71.0" />
+    </edge>
+    <edge source="com.devstdio.modelos.Empresa" target="com.devstdio.modelos.Ciudad">
+      <point x="0.0" y="-59.5" />
+      <point x="963.5" y="350.0" />
+      <point x="854.125" y="350.0" />
+      <point x="40.0" y="48.5" />
+    </edge>
+    <edge source="com.devstdio.modelos.Ciudad" target="com.devstdio.modelos.Enlace">
+      <point x="-105.0" y="-48.5" />
+      <point x="709.125" y="123.0" />
+      <point x="697.1562499999999" y="123.0" />
+      <point x="-56.33333333333337" y="49.0" />
+    </edge>
+    <edge source="com.devstdio.modelos.Vehiculo" target="com.devstdio.modelos.Ciudad">
+      <point x="-102.5" y="-92.5" />
+      <point x="1344.5" y="330.0" />
+      <point x="934.125" y="330.0" />
+      <point x="120.0" y="48.5" />
+    </edge>
+    <edge source="com.devstdio.modelos.Viaje" target="com.devstdio.modelos.Ciudad">
+      <point x="-41.5" y="-48.5" />
+      <point x="1097.5" y="340.0" />
+      <point x="894.125" y="340.0" />
+      <point x="80.0" y="48.5" />
+    </edge>
+    <edge source="com.devstdio.modelos.Producto" target="com.devstdio.modelos.CaracteristicaEspecial">
+      <point x="0.0" y="-59.5" />
+      <point x="1877.0" y="350.0" />
+      <point x="1735.2777777777776" y="350.0" />
+      <point x="72.5" y="49.0" />
+    </edge>
+    <edge source="com.devstdio.modelos.Cliente" target="com.devstdio.modelos.Persona">
+      <point x="-170.625" y="-49.0" />
+      <point x="472.875" y="320.0" />
+      <point x="230.73958333333326" y="320.0" />
+      <point x="35.5" y="71.0" />
+    </edge>
+    <edge source="com.devstdio.modelos.Viaje" target="com.devstdio.modelos.EstadoViaje">
+      <point x="41.5" y="-48.5" />
+      <point x="1180.5" y="350.0" />
+      <point x="1191.7395833333333" y="350.0" />
+      <point x="0.0" y="37.5" />
+    </edge>
+    <edge source="com.devstdio.modelos.Vehiculo" target="com.devstdio.modelos.CaracteristicaEspecial">
+      <point x="102.5" y="-92.5" />
+      <point x="1549.5" y="350.0" />
+      <point x="1590.2777777777776" y="350.0" />
+      <point x="-72.5" y="49.0" />
+    </edge>
+    <edge source="com.devstdio.modelos.Conductor" target="com.devstdio.modelos.Ciudad">
+      <point x="148.5" y="-49.0" />
+      <point x="346.5" y="340.0" />
+      <point x="734.125" y="340.0" />
+      <point x="-80.0" y="48.5" />
+    </edge>
+    <edge source="com.devstdio.modelos.Enlace" target="com.devstdio.modelos.Ciudad">
+      <point x="56.33333333333337" y="49.0" />
+      <point x="809.8229166666666" y="123.0" />
+      <point x="849.125" y="123.0" />
+      <point x="35.0" y="-48.5" />
+    </edge>
+    <edge source="com.devstdio.modelos.Ciudad" target="com.devstdio.modelos.Ubicacion">
+      <point x="105.0" y="-48.5" />
+      <point x="919.125" y="123.0" />
+      <point x="960.4895833333333" y="123.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.670313986679353" x="1041.0" y="277.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
